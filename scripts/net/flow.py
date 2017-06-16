@@ -85,7 +85,8 @@ def return_predict(self, im):
 
     # meta
     meta = self.meta
-    threshold = meta['thresh']
+    #threshold = meta['thresh']
+
     colors = meta['colors']
     labels = meta['labels']
 
